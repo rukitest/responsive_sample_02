@@ -1,0 +1,35 @@
+/*-------------------------------
+          mobile.css
+--------------------------------*/
+
+header{
+  height: 5rem;
+}
+header h1{
+  position: absolute;
+  top: 1.5rem;
+  left: 2rem;
+  font-size: 1.2rem;
+}
+
+
+#lists {
+  /* Do Nothing */
+}
+#lists li {
+  width: 100%;
+  border-bottom: 1px solid #ffd700;
+}
+#lists li:last-child {
+  border-bottom: none;
+}
+
+article, aside {
+  padding: 2rem;
+  font-size: 0.85rem;
+}
+
+
+article {
+  background-color: #fff4b3;
+}
